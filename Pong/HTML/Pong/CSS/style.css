@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Press Start 2P";
+  src: url(path/to/press-start-2p.ttf);
+}
+
+#score1,
+#score2 {
+  font-family: "Press Start 2P", monospace;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+}
+
+#score1 {
+  left: 40px;
+}
+
+#score2 {
+  right: 40px;
+}
+
+#pong {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: black;
+  overflow: hidden;
+}
+
+#paddle1,
+#paddle2 {
+  position: absolute;
+  width: 10px;
+  height: 60px;
+  background-color: white;
+}
+
+#paddle1 {
+  left: 10px;
+  top: 170px;
+}
+
+#paddle2 {
+  right: 10px;
+  top: 170px;
+}
+
+#ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  left: 295px;
+  top: 195px;
+  border-radius: 50%;
+}
